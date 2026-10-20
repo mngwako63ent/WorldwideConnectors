@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
         {/* Background Image with dark overlay scrim */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_iphone_titanium_1792422845811.jpg"
+            src="/images/hero_iphone_titanium_1792422845811.jpg"
             alt="Refurbished iPhone 16 Pro Max in Desert and Natural Titanium"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center lg:object-right scale-105 transition-transform duration-1000 ease-out"
