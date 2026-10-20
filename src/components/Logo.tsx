@@ -83,7 +83,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', variant = 'dark', si
               isDark ? 'text-zinc-950' : 'text-white'
             }`}
           >
-            world<span className="text-blue-600 font-black">-</span>connet
+            world<span className="text-blue-600 font-black">-</span>connect
           </span>
         </div>
         <span
