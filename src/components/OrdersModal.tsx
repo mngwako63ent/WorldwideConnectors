@@ -22,7 +22,7 @@ export const OrdersModal: React.FC = () => {
                 My Orders &amp; Dispatch Tracking
               </h2>
               <span className="text-xs text-zinc-500">
-                world-connet Order Management
+                world-connect Order Management
               </span>
             </div>
           </div>
@@ -108,7 +108,7 @@ export const OrdersModal: React.FC = () => {
               <Package className="w-12 h-12 text-zinc-300 mx-auto mb-3" />
               <h3 className="text-sm font-bold text-zinc-900">No Orders Yet</h3>
               <p className="text-xs text-zinc-500 mt-1 max-w-xs mx-auto mb-6">
-                When you purchase refurbished hardware from world-connet, your live order tracking reference and warranty information will appear here.
+                When you purchase refurbished hardware from world-connect, your live order tracking reference and warranty information will appear here.
               </p>
               <button
                 onClick={() => {

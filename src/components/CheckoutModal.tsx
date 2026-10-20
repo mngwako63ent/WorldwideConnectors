@@ -98,8 +98,8 @@ Shipping: ${createdOrder.shippingZAR === 0 ? 'FREE' : formatPrice(createdOrder.s
 ----------------------------------------
 TOTAL PAID: ${formatPrice(createdOrder.totalZAR)}
 ========================================
-Thank you for choosing world-connet!
-Support: support@world-connet.co.za
+Thank you for choosing world-connect!
+Support: support@world-connect.co.za
 ========================================
     `.trim();
 
@@ -107,7 +107,7 @@ Support: support@world-connet.co.za
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `world-connet-receipt-${createdOrder.orderId}.txt`;
+    link.download = `world-connect-receipt-${createdOrder.orderId}.txt`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -138,7 +138,7 @@ Support: support@world-connet.co.za
                 {step === 'confirmed' && 'Order Confirmed!'}
               </h2>
               <span className="text-xs text-zinc-500">
-                world-connet · Certified Refurbished Apple Store
+                world-connect · Certified Refurbished Apple Store
               </span>
             </div>
           </div>
@@ -494,7 +494,7 @@ Support: support@world-connet.co.za
                 Thank you, {createdOrder.customer.name.split(' ')[0]}!
               </h3>
               <p className="text-xs text-zinc-600 mt-1 max-w-sm mx-auto">
-                Your order <strong className="text-zinc-950">{createdOrder.orderId}</strong> has been confirmed at world-connet.
+                Your order <strong className="text-zinc-950">{createdOrder.orderId}</strong> has been confirmed at world-connect.
               </p>
             </div>
 

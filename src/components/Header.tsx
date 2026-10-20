@@ -115,7 +115,7 @@ export const Header: React.FC = () => {
             setMobileMenuOpen(false);
           }}
           className="flex items-center text-left cursor-pointer shrink min-w-0 transition-opacity hover:opacity-90 min-h-[44px]"
-          aria-label="world-connet homepage"
+          aria-label="world-connect homepage"
         >
           <Logo variant="dark" size="md" />
         </button>

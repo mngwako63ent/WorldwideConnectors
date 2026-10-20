@@ -32,7 +32,7 @@ export const ContactModal: React.FC = () => {
         <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50">
           <div>
             <h2 className="text-base sm:text-lg font-bold text-zinc-950">
-              Contact world-connet Showroom
+              Contact world-connect Showroom
             </h2>
             <span className="text-xs text-zinc-500">
               Direct Refurbished Hardware Consultation

@@ -49,7 +49,7 @@ export const AboutLabPage: React.FC = () => {
         <div className="max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-blue-50 text-blue-700 border border-blue-200 rounded-full text-xs font-bold tracking-wide">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>The world-connet Certified Standard</span>
+            <span>The world-connect Certified Standard</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-zinc-950 leading-tight">
@@ -57,7 +57,7 @@ export const AboutLabPage: React.FC = () => {
           </h1>
 
           <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
-            world-connet was founded to give clients an elevated Apple experience at up to 45% lower prices than retail, backed by rigorous 70-point diagnostics, certified 12-month warranties, and zero e-waste.
+            world-connect was founded to give clients an elevated Apple experience at up to 45% lower prices than retail, backed by rigorous 70-point diagnostics, certified 12-month warranties, and zero e-waste.
           </p>
 
           <div className="pt-2 flex flex-wrap gap-3">
@@ -191,11 +191,11 @@ export const AboutLabPage: React.FC = () => {
             </div>
 
             <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white">
-              The world-connet 1-Year Hardware Promise
+              The world-connect 1-Year Hardware Promise
             </h2>
 
             <p className="text-xs sm:text-sm text-zinc-300 leading-relaxed">
-              Every device purchased from world-connet includes our comprehensive 12-month hardware warranty covering logic boards, displays, touch sensors, cameras, and microphones. If any component develops a manufacturer fault, we repair or replace it with priority turnaround.
+              Every device purchased from world-connect includes our comprehensive 12-month hardware warranty covering logic boards, displays, touch sensors, cameras, and microphones. If any component develops a manufacturer fault, we repair or replace it with priority turnaround.
             </p>
 
             <div className="pt-2 flex flex-wrap gap-4">

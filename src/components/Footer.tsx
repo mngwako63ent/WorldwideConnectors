@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
 
   const handleCategoryClick = (cat: string) => {
     if (cat === 'Brand New') {
-      alert('world-connet specializes in Certified Refurbished Apple hardware for maximum value and circular sustainability.');
+      alert('world-connect specializes in Certified Refurbished Apple hardware for maximum value and circular sustainability.');
       return;
     }
     if (cat === 'Apple TV') {
@@ -189,19 +189,19 @@ export const Footer: React.FC = () => {
         <div className="border-t border-zinc-800/80 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
           
           <div className="flex items-center gap-2 text-zinc-400 font-semibold">
-            <span className="text-white font-extrabold lowercase">world-connet</span>
+            <span className="text-white font-extrabold lowercase">world-connect</span>
             <span>© {new Date().getFullYear()} All rights reserved.</span>
           </div>
 
           <div className="flex items-center gap-6 font-medium">
             <button
-              onClick={() => alert('world-connet: 12-Month Hardware Warranty and 14-Day Free Return Policy on all certified devices.')}
+              onClick={() => alert('world-connect: 12-Month Hardware Warranty and 14-Day Free Return Policy on all certified devices.')}
               className="hover:text-zinc-300 transition-colors cursor-pointer"
             >
               Terms &amp; Conditions
             </button>
             <button
-              onClick={() => alert('world-connet: Client privacy is protected with 256-bit encryption. Zero payment data is stored.')}
+              onClick={() => alert('world-connect: Client privacy is protected with 256-bit encryption. Zero payment data is stored.')}
               className="hover:text-zinc-300 transition-colors cursor-pointer"
             >
               Privacy Policy

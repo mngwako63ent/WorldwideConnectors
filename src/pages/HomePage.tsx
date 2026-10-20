@@ -128,7 +128,7 @@ export const HomePage: React.FC = () => {
           
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-xs font-bold uppercase tracking-widest text-blue-600">
-              The world-connet Guarantee
+              The world-connect Guarantee
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-zinc-950 mt-1">
               Engineered to Apple Factory Standards

@@ -12,7 +12,8 @@ import {
   Award,
   Minus,
   Plus,
-  ShoppingBag
+  ShoppingBag,
+  Zap
 } from 'lucide-react';
 
 export const ProductModal: React.FC = () => {
@@ -90,7 +91,7 @@ export const ProductModal: React.FC = () => {
               <div className="flex items-center gap-2 text-xs font-bold text-zinc-500 uppercase tracking-wider mb-2">
                 <span>{selectedProduct.category}</span>
                 <span>·</span>
-                <span className="text-blue-600">world-connet Certified</span>
+                <span className="text-blue-600">world-connect Certified</span>
               </div>
 
               {/* Main Product Image Stage */}
@@ -296,7 +297,7 @@ export const ProductModal: React.FC = () => {
                   onClick={handleBuyNow}
                   className="flex-1 py-3.5 px-4 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-xs font-bold uppercase tracking-wider transition-all flex items-center justify-center gap-2 shadow-md hover:shadow-blue-600/30 cursor-pointer active:scale-98"
                 >
-                  <Sparkles className="w-4 h-4" />
+                  <Zap className="w-4 h-4" />
                   <span>Instant Checkout</span>
                 </button>
               </div>

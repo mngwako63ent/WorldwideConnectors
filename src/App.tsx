@@ -28,7 +28,7 @@ const AppContent: React.FC = () => {
       {/* Top Announcement Bars */}
       <AnnouncementBar />
 
-      {/* Primary Top Bar with custom world-connet logo and 3-page navigation */}
+      {/* Primary Top Bar with custom world-connect logo and 3-page navigation */}
       <Header />
 
       {/* Dynamic 3-Page Main Content View */}

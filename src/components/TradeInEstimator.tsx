@@ -45,7 +45,7 @@ export const TradeInEstimator: React.FC = () => {
             <RefreshCw className="w-5 h-5 text-blue-600" />
             <div>
               <h2 className="text-base sm:text-lg font-bold text-zinc-950">
-                world-connet Trade-In Valuation
+                world-connect Trade-In Valuation
               </h2>
               <span className="text-xs text-zinc-500">
                 Trade your used device towards any certified refurbished Apple product
@@ -165,7 +165,7 @@ export const TradeInEstimator: React.FC = () => {
           {/* Estimated Value Card */}
           <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-4 text-center space-y-1">
             <span className="text-[11px] font-bold text-emerald-800 uppercase tracking-wider">
-              Estimated world-connet Store Credit
+              Estimated world-connect Store Credit
             </span>
             <div className="text-3xl font-extrabold text-emerald-950 tabular-nums">
               {formatPrice(estimatedCredit)}

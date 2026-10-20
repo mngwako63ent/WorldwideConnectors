@@ -60,7 +60,7 @@ export const RefurbishedInspectionModal: React.FC = () => {
             </div>
             <div>
               <h2 className="text-base sm:text-lg font-bold text-white tracking-tight">
-                The world-connet 70-Point Certified Standard
+                The world-connect 70-Point Certified Standard
               </h2>
               <span className="text-xs text-zinc-400">
                 Hardware Engineering &amp; Diagnostics Lab
@@ -81,7 +81,7 @@ export const RefurbishedInspectionModal: React.FC = () => {
           
           <div className="p-4 bg-zinc-50 border border-zinc-200 rounded-2xl space-y-1">
             <h3 className="font-bold text-zinc-900 text-sm">
-              Why Buy Refurbished from world-connet?
+              Why Buy Refurbished from world-connect?
             </h3>
             <p className="text-xs text-zinc-600 leading-relaxed">
               Every MacBook, iPhone, iPad, Apple Watch, and AirPods unit passes through our proprietary 70-point technical diagnosis before reaching our storefront. You receive Grade A+ condition, 12 months comprehensive warranty, and up to 45% savings compared to brand new retail.

@@ -23,7 +23,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', variant = 'dark', si
 
   return (
     <div className={`flex items-center gap-2 sm:gap-3 select-none min-w-0 ${className}`}>
-      {/* Custom Original Emblem for world-connet: Interlocking connected orbital nodes & circular tech bridge */}
+      {/* Custom Original Emblem for world-connect: Interlocking connected orbital nodes & circular tech bridge */}
       <div className={`relative ${iconSizes[size]} shrink-0 flex items-center justify-center`}>
         <svg
           viewBox="0 0 100 100"
@@ -75,7 +75,7 @@ export const Logo: React.FC<LogoProps> = ({ className = '', variant = 'dark', si
         </svg>
       </div>
 
-      {/* Brand Wordmark: world-connet */}
+      {/* Brand Wordmark: world-connect */}
       <div className="flex flex-col min-w-0">
         <div className="flex items-center">
           <span
