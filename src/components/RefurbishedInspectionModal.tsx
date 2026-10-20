@@ -47,13 +47,13 @@ export const RefurbishedInspectionModal: React.FC = () => {
   ];
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-150">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 my-auto animate-in fade-in duration-150">
       <div
-        className="relative bg-white rounded-3xl max-w-2xl w-full shadow-2xl border border-zinc-200 overflow-hidden"
+        className="relative bg-white rounded-3xl max-w-2xl w-full shadow-2xl border border-zinc-200 overflow-hidden my-auto max-h-[92vh] flex flex-col"
         onClick={e => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-950 text-white">
+        <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-950 text-white shrink-0">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center">
               <ShieldCheck className="w-5 h-5 text-cyan-400" />
@@ -77,7 +77,7 @@ export const RefurbishedInspectionModal: React.FC = () => {
         </div>
 
         {/* Content */}
-        <div className="p-6 max-h-[70vh] overflow-y-auto space-y-6 text-xs text-zinc-700">
+        <div className="p-6 overflow-y-auto flex-1 space-y-6 text-xs text-zinc-700">
           
           <div className="p-4 bg-zinc-50 border border-zinc-200 rounded-2xl space-y-1">
             <h3 className="font-bold text-zinc-900 text-sm">

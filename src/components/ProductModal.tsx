@@ -69,21 +69,21 @@ export const ProductModal: React.FC = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 lg:p-8 animate-in fade-in duration-150">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 lg:p-8 my-auto animate-in fade-in duration-150">
       <div
-        className="relative bg-white rounded-3xl max-w-4xl w-full shadow-2xl border border-zinc-200 overflow-hidden my-8"
+        className="relative bg-white rounded-3xl max-w-4xl w-full shadow-2xl border border-zinc-200 overflow-hidden my-auto max-h-[92vh] flex flex-col"
         onClick={e => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           onClick={() => setSelectedProduct(null)}
           aria-label="Close dialog"
-          className="absolute right-4 top-4 z-10 w-9 h-9 rounded-full bg-zinc-100 hover:bg-zinc-200 text-zinc-700 hover:text-zinc-950 flex items-center justify-center transition-colors cursor-pointer"
+          className="absolute right-4 top-4 z-20 w-9 h-9 rounded-full bg-zinc-100/90 hover:bg-zinc-200 text-zinc-700 hover:text-zinc-950 flex items-center justify-center transition-colors cursor-pointer shadow-xs backdrop-blur-xs"
         >
           <X className="w-5 h-5" />
         </button>
 
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="overflow-y-auto flex-1 grid grid-cols-1 md:grid-cols-2">
           
           {/* Left Column: Product Imagery & Diagnostics summary */}
           <div className="p-6 sm:p-8 bg-zinc-50/80 border-b md:border-b-0 md:border-r border-zinc-200 flex flex-col justify-between">

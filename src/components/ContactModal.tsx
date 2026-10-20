@@ -23,13 +23,13 @@ export const ContactModal: React.FC = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-150">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 my-auto animate-in fade-in duration-150">
       <div
-        className="relative bg-white rounded-2xl max-w-2xl w-full shadow-2xl border border-zinc-200 overflow-hidden"
+        className="relative bg-white rounded-3xl max-w-2xl w-full shadow-2xl border border-zinc-200 overflow-hidden my-auto max-h-[92vh] flex flex-col"
         onClick={e => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50">
+        <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50 shrink-0">
           <div>
             <h2 className="text-base sm:text-lg font-bold text-zinc-950">
               Contact world-connect Showroom
@@ -47,7 +47,7 @@ export const ContactModal: React.FC = () => {
           </button>
         </div>
 
-        <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-xs">
+        <div className="p-6 grid grid-cols-1 md:grid-cols-2 gap-6 text-xs overflow-y-auto flex-1">
           
           {/* Left Column: Contact details (left blank for now as requested) */}
           <div className="space-y-4">

@@ -115,13 +115,13 @@ Support: support@world-connect.co.za
   };
 
   return (
-    <div className="fixed inset-0 z-60 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-60 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 my-auto animate-in fade-in duration-200">
       <div
-        className="relative bg-white rounded-2xl max-w-2xl w-full shadow-2xl border border-zinc-200 overflow-hidden my-8"
+        className="relative bg-white rounded-3xl max-w-2xl w-full shadow-2xl border border-zinc-200 overflow-hidden my-auto max-h-[92vh] flex flex-col"
         onClick={e => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50">
+        <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50 shrink-0">
           <div className="flex items-center gap-3">
             {step === 'payment' && (
               <button
@@ -151,8 +151,9 @@ Support: support@world-connect.co.za
           </button>
         </div>
 
-        {/* Step 1: Details */}
-        {step === 'details' && (
+        <div className="overflow-y-auto flex-1">
+          {/* Step 1: Details */}
+          {step === 'details' && (
           <form onSubmit={handleDetailsSubmit} className="p-6 space-y-5">
             {errorMessage && (
               <div className="p-3 bg-red-50 border border-red-200 text-red-700 text-xs rounded-xl font-medium">
@@ -576,6 +577,8 @@ Support: support@world-connect.co.za
             </div>
           </div>
         )}
+
+        </div>
 
       </div>
     </div>

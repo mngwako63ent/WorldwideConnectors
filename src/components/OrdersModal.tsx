@@ -8,13 +8,13 @@ export const OrdersModal: React.FC = () => {
   if (!isOrdersOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-150">
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 my-auto animate-in fade-in duration-150">
       <div
-        className="relative bg-white rounded-3xl max-w-2xl w-full shadow-2xl border border-zinc-200 overflow-hidden"
+        className="relative bg-white rounded-3xl max-w-2xl w-full shadow-2xl border border-zinc-200 overflow-hidden my-auto max-h-[92vh] flex flex-col"
         onClick={e => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50">
+        <div className="p-5 sm:p-6 border-b border-zinc-200 flex items-center justify-between bg-zinc-50 shrink-0">
           <div className="flex items-center gap-2.5">
             <Package className="w-5 h-5 text-blue-600" />
             <div>
@@ -36,7 +36,7 @@ export const OrdersModal: React.FC = () => {
         </div>
 
         {/* Content */}
-        <div className="p-6 max-h-[70vh] overflow-y-auto">
+        <div className="p-6 overflow-y-auto flex-1">
           {orders.length > 0 ? (
             <div className="space-y-4">
               {orders.map(order => (
