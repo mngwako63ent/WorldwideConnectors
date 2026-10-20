@@ -1,0 +1,8 @@
+{
+  "name": "Worldwide Connectors - Refurbished Apple Store",
+  "description": "South Africa's premier certified refurbished Apple specialist. Buy certified pre-owned MacBooks, iPhones, iPads, Apple Watches, and AirPods with warranty and fast delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
